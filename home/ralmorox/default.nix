@@ -1,6 +1,10 @@
-{ config, ... }:
+{ config, pkgs, ... }:
 
 {
+  home.packages = [
+    pkgs.codex
+  ];  
+
   home.username = "ralmorox";
   home.homeDirectory = "/home/ralmorox";
   home.stateVersion = "26.11";
