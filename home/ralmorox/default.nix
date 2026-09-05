@@ -5,6 +5,8 @@
   home.homeDirectory = "/home/ralmorox";
   home.stateVersion = "26.11";
 
+  programs.gh.enable = true;
+
   xdg.enable = true;
 
   xdg.configFile."hypr/hyprland.lua".source =
